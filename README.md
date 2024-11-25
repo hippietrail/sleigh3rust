@@ -9,21 +9,21 @@ with [sleigh2rust](https://github.com/rbran/sleigh2rust).
 The [sleigh3test](https://github.com/rbran/sleigh3test) uses this crate to
 execute basic disassembly tests.
 
-This project still in a early PoC (Proof-of-Concept) stage.
+This project still in an early PoC (Proof-of-Concept) stage.
 
-Each CPU are located in their own crate, they are compiled as dylib.
+Each CPU is located in its own crate, they are compiled as dylib.
 
-The create dyn-test include multiple tests that will load and test
+The create dyn-test includes multiple tests that will load and test
 each cpu architecture.
 
-The objective of this project is to implement and MVP disassembler/emulator.
+The objective of this project is to implement an MVP disassembler/emulator.
 Currently the code generated is unecessarelly verbose and slow, because this is
 not the goal at this stage of the project.
 
 List of CPUs and variants:
 
 ✅: Implemented
-🚧: In Construction
+🚧: Under Construction
 
 |Family|Variant|Disassembler|
 |------|-------|------------|
